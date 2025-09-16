@@ -75,7 +75,7 @@ export default function LoginPage() {
       setIsLoading(false);
       console.log("Login successful", formData);
       // Navigate to dashboard after successful login
-      router.push("/mobile/dashboard");
+      router.push("/dashboard");
     }, 2000);
   };
 
@@ -358,7 +358,7 @@ export default function LoginPage() {
             <div className="mt-8 text-center">
               <p className="text-gray-600">
                 Don't have an account?{" "}
-                <Link href="/mobile/register">
+                <Link href="/register">
                   <button className="text-emerald-600 hover:text-emerald-700 font-semibold transition-colors">
                     Sign up
                   </button>
